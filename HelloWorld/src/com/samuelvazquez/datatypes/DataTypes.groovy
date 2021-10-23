@@ -38,3 +38,12 @@ boolean flag = true
 println flag
 String str = "Groovy is cool"
 println str
+// now using 'def' keyword
+def x = 10
+println x
+println x.getClass().getSimpleName()
+// casting between types
+def y = (byte)10
+println y
+println y.getClass().getSimpleName()
+
